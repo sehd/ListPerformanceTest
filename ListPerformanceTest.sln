@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListPerformanceTest.AndroidNative", "ListPerformanceTest.AndroidNative\ListPerformanceTest.AndroidNative.csproj", "{52614E80-FA5C-4EBC-B468-0A0F5E10336A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListPerformanceTest.AndroidNative", "Native\ListPerformanceTest.AndroidNative.csproj", "{52614E80-FA5C-4EBC-B468-0A0F5E10336A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListPerformanceTest.Business", "ListPerformanceTest.Business\ListPerformanceTest.Business.csproj", "{9830E5B6-A35C-4C39-923B-E87E6D12136A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListPerformanceTest.Business", "Business\ListPerformanceTest.Business.csproj", "{9830E5B6-A35C-4C39-923B-E87E6D12136A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListPerformanceTest.XamarinForms.Android", "ListPerformanceTest.XamarinForms\ListPerformanceTest.XamarinForms.Android\ListPerformanceTest.XamarinForms.Android.csproj", "{3019191B-A438-4822-BBC1-8335DB976C7E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListPerformanceTest.XamarinForms.Android", "Forms\LPT.XamarinForms.Android\ListPerformanceTest.XamarinForms.Android.csproj", "{3019191B-A438-4822-BBC1-8335DB976C7E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListPerformanceTest.XamarinForms", "ListPerformanceTest.XamarinForms\ListPerformanceTest.XamarinForms\ListPerformanceTest.XamarinForms.csproj", "{C88DF79E-E83F-4AFE-A10B-4706D7D57C3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListPerformanceTest.XamarinForms", "Forms\LPT.XamarinForms\ListPerformanceTest.XamarinForms.csproj", "{C88DF79E-E83F-4AFE-A10B-4706D7D57C3B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{35D393C4-FCEC-4CF5-BF35-9C27D5C99000}"
 	ProjectSection(SolutionItems) = preProject
