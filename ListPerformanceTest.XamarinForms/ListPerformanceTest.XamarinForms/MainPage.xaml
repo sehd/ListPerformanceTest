@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ListPerformanceTest.XamarinForms.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+    xmlns:local="clr-namespace:ListPerformanceTest.XamarinForms">
+
+    <StackLayout>
+        <flv:FlowListView
+            FlowColumnCount="3"
+            FlowItemTappedCommand="{Binding GoToDetail}"
+            FlowItemsSource="{Binding Items}"
+            FlowUseAbsoluteLayoutInternally="False"
+            RowHeight="130"
+            SelectionMode="None"
+            SeparatorVisibility="None">
+            <flv:FlowListView.FlowColumnTemplate>
+                <DataTemplate>
+                    <StackLayout Orientation="Vertical">
+                        <Image
+                            Aspect="AspectFit"
+                            HeightRequest="100"
+                            Source="{Binding ImageId, Converter={local:ImageIdToResourceConverter}}"
+                            WidthRequest="100" />
+                        <Label HorizontalTextAlignment="Center" Text="{Binding Name}" />
+                    </StackLayout>
+                </DataTemplate>
+            </flv:FlowListView.FlowColumnTemplate>
+        </flv:FlowListView>
+    </StackLayout>
+
+</ContentPage>
